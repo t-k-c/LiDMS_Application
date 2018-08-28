@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:clickable="true">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingLeft="10dp"
+       android:paddingStart="10dp"
+       android:paddingEnd="10dp"
+       android:paddingRight="10dp"
+       android:paddingTop="5dp"
+       android:paddingBottom="5dp"
+       android:background="@drawable/clickable"
+       >
+      <LinearLayout
+          android:layout_width="5dp"
+          android:layout_height="match_parent"
+          android:background="#529979"
+          android:id="@+id/lyz"/>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="15dp"
+          android:orientation="vertical"
+          >
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMTEL CM"
+                android:textColor="@android:color/black"
+                android:id="@+id/name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30% complete"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/complete"
+                />
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Licence for the operation of the data..."
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/title"
+                />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day 30"
+                android:textColor="#529979"
+                android:id="@+id/days"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24th June 2018"
+                android:textColor="#529979"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/due"
+                />
+         </RelativeLayout>
+      </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
